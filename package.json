@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "capture": "playwright codegen",
+    "capture-with-storage": "playwright codegen --load-storage=tests/storageState.json",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "npx": "^3.0.0"
+  }
+}
