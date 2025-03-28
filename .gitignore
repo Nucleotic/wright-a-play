@@ -105,3 +105,9 @@ dist
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+npm.lock
+yarn.lock
+pnpm-lock.yaml
+
+.history/
